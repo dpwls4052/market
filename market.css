@@ -1,0 +1,192 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+#bar{
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 100;
+}
+.headerContainer{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 16px 0;
+}
+.headerLeft{
+    display: flex;
+}
+.headerLeft h1{
+    margin-right: 30px;
+}
+.hide{
+    position: absolute;
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+}
+.search{
+    display: flex;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.search:focus-within{
+    border: 1px solid #212529;
+}
+.search input{
+    width: 340px;
+    display: block;
+    border: none;
+    font-size: 16px;
+    color: #e9ecef;
+    
+}
+.search input:focus{
+    outline: none;
+    color: #000;
+}
+.search input::placeholder{
+    color: rgb(175, 175, 175);
+}
+.search button{
+    border: none;
+    background-color: transparent;
+}
+.search button:hover{
+    cursor: pointer;
+}
+.headerRight{
+    display: flex;
+}
+.headerRight .downlode{
+    margin-right: 50px;
+    padding-top: 10px;
+}
+.headerRight .downlode a{
+    color: #4D5159;
+    font-weight: 700;
+    font-size: 16px;
+}
+.beta{
+    border: 1px solid #D1D3D8;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+}
+.beta a{
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+.beta a .text{
+    color: #4D5159;
+    font-weight: 700;
+    font-size: 16px;
+}
+.beta a .orange-text{
+    font-size: 15px;
+    font-weight: 800;
+    color:#FF7E36 ;
+}
+main{
+    overflow: hidden;
+}
+.slogancontainer{
+    background-color:#FBF7F2;
+    padding-top: 72px;
+}
+.sloganArea{
+    width: 1024px;
+    height: 760px;
+    margin: 0 auto;
+    position: relative;
+}
+.slogancontainer .sloganleft{
+    position: absolute;
+    top: 33.33%;
+}
+.sloganleft h2{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.sloganleft p{
+    line-height:25px;
+}
+.slogancontainer .sloganright{
+    width: 804px;
+    height: 685px;
+    background: url(market/main.png) no-repeat;
+    background-size: 804px 685px;
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+}
+.introArea img:not(.listcontainer img){
+    background-size: 532px 684px;
+    width: 532px;
+    height: 684px;
+}
+.list{
+    display: flex;
+    width:1024px;
+    height: 760px;
+    padding: 60px 0;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.list h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 55px;
+}
+.list p{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.list a{
+    background-color:#F1F3F5;
+    color: #212529;
+    padding: 15px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+}
+.list a:hover{
+    background-color:#E9ECEF ;
+}
+.listright a:nth-of-type(2){
+    margin-left: 15px;
+}
+.listcontainer{
+    background-color:#E6F3E6 ;
+}
+.listcontainer .listright img{
+    background-size: 546px 740px;
+    width: 546px;
+    height: 740px;
+}
+.sub{
+    display: flex;
+    margin-right: -60px;
+}
+.sub ul li{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+h4{
+    font-size: 14px;
+    margin: 15px 0;
+}
+.sub ul li p{
+    font-size: 13px;
+}
