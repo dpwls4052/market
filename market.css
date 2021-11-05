@@ -276,3 +276,84 @@ h4{
 .keywords nav li a{
     margin-left: 50px;
 }
+footer{
+    background-color:#495057 ;
+    padding: 80px 0;
+}
+.footer-container{
+    width: 1024px;
+    margin: 0 auto;    
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.footer-top img{
+    width: 130px;
+    height: 37px;
+    background-size: 130px 37px;
+}
+.footer-top ul{
+    padding-top: 15px;
+}
+.footer-top ul li{
+    margin-bottom: 15px;
+}
+.footer-top .bold{
+    font-weight: 800;
+    color: #fff;
+}
+.footer-top ul li a{
+    font-size: 16px;
+    color: #ADB5BD;
+}
+.footer-bottom{
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+.copyright{
+    color: #ADB5BD;
+    margin-top: 30px;
+}
+.copyright ul li,
+.copyright p{
+    font-size:14px ;
+}
+.copyright ul li{
+    margin-right: 15px;
+    margin-bottom: 7px;
+}
+.copyright ul li a{
+    color: #868e96;
+}
+.copyright p{
+    margin-top: 10px;
+    color: #868e96;
+}
+.copyright-top{
+    display: flex;
+}
+.snskorea{
+    display: flex;
+    margin: 35px 0;
+    position: relative;
+}
+.snskorea .sns-icons a{
+    margin-right: 20px;
+}
+.snskorea .korea img{
+    height: 24px;
+    width: 24px;
+    background-size: 24px 24px;
+    margin-left: 25px;
+}
+.snskorea .korea p{
+    position: absolute;
+    left: 194px;top: 1px;
+    color: #ADB5BD;
+    text-decoration: underline;
+}
+.copyright-text{
+    font-size: 14px;
+    color: #868e96;
+}
