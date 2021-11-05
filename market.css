@@ -252,3 +252,27 @@ h4{
 .exampleArea .textmore{
     text-align: center;
 }
+.exampleArea .textmore a{
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.keywords{
+    width: 1024px;
+    margin: 40px auto;
+}
+.keywords a{
+    color: #000;
+}
+.keywords a:not(nav li a){
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.keywords nav{
+    display: flex;
+    margin: 20px;
+}
+.keywords nav li a{
+    margin-left: 50px;
+}
